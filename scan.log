@@ -1,18 +1,4 @@
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
-[WARN] ./vault_sweep.sh contains dangerous command
-[WARN] ./dangerous.sh contains dangerous command
+[2026-06-01 05:09:00] [WARN] ./test_files/dangerous.sh - Reason: Dangerous command detected
+[INFO] bad.env Valid: 2, Invalid: 4
+[2026-06-01 05:09:00] [WARN] ./test_files/malware - Reason: Suspicious executable detected
+[2026-06-01 05:09:00] [INFO] ./test_files/malware Author: 
