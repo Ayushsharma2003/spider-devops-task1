@@ -37,6 +37,12 @@ do
             echo "[$(timestamp)] [FIX] $file removed world write permission" >> scan.log
         fi
     fi
+
+    if grep -q "curl.*|.*sh" "$file" || grep -q "wget.*|.*sh" "$file"
+    then
+        echo "[WARN] $file contains suspicious download" >> scan.log
+    fi
+    
 done
 > .env.sanitized
 
