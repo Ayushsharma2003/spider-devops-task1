@@ -1,5 +1,8 @@
 #!/bin/bash
 
+touch scan.log
+chmod 600 scan.log
+
 timestamp() {
     date "+%Y-%m-%d %H:%M:%S"
 }
